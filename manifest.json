@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "BRAVE Forum Emotes",
+  "description": "Filling BRAVE forums with the power of emotes.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://forums.braveineve.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://forums.braveineve.com/*", "http://forums.braveineve.com/*"],
+      "css": ["brave.css"],
+      "js": ["jquery.js", "brave.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "berachs/*"
+  ]
+}

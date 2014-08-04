@@ -1,0 +1,3 @@
+[submodule "berachs"]
+	path = berachs
+	url = https://github.com/Berach/BERACHS_COMPLETE_PIDGIN.git
